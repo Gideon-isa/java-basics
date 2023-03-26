@@ -37,6 +37,9 @@ public class UserTest {
         //2. The compiler set the method to be invoked at compile time, meaning the method called is
         //3. Static methods can not be overriden
        User.showStatic();
+
+       // NOTE
+        // A class modifier can only be default or public
     }
 
 }
