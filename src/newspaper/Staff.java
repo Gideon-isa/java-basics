@@ -9,4 +9,8 @@ public class Staff extends User{
     public void postAReview() {
         System.out.println("Staff: postAReview");
     }
+
+    public static void showStatic() {
+        System.out.println("Staff: in staff static method");
+    }
 }

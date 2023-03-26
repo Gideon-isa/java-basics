@@ -27,5 +27,16 @@ public class UserTest {
         // and prints the saveWebLink(). Which in turn calls the postAReview() then the process
         // (search for the method) start again from the Editor class and up to the Staff class where it calls
         // the PostAReview method of the Staff class
+
+        //NOTE: FOR CLASS INSTANCES REFERENCES
+        // 1. The Compiler uses the Reference type to know whether a particular method can be invoked on it
+        // 2. JVM looks uses the object to know which method to invoke at run time
+
+        // NOTE: FOR CLASS STATIC REFERENCES
+        //1.
+        //2. The compiler set the method to be invoked at compile time, meaning the method called is
+        //3. Static methods can not be overriden
+       User.showStatic();
     }
+
 }

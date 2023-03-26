@@ -13,4 +13,8 @@ public class User {
     public void postAReview() {
         System.out.println("User: postAReview");
     }
+
+    public static void showStatic() {
+        System.out.println("User: in user static method");
+    }
 }
