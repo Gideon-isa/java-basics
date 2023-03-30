@@ -9,4 +9,5 @@ public abstract class AbstractSubclass extends AbstractSuperclass{
 
     // NOTE
     // An abstract subclass need not necessarily override all its superclass methods
+    // An abstract class can contain concrete methods e.g. test1()
 }
