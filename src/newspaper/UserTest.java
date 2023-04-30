@@ -16,7 +16,7 @@ public class UserTest {
         ut.printUserType(editor);
 
         //editor.approveReview();
-        // compiler error. because it uses the reference variable editor which is of type User to access methods
+        // compiler error. because it uses the reference variable editor which is of type User to access methods and not the object at compile time
         // and not the object (new Editor) itself
 
         editor.postAReview(); // it prints the postAReview in the Staff class because it is the immediate super class
